@@ -6,7 +6,7 @@
 - Cláudio Matheus Modesto Barata
 - Gabriel da Paixão Fernandes
 
-### Feramentas 
+### Ferramentas 
 - Flask
 - React Native
 - Rede Neural
