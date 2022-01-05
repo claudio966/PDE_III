@@ -1,0 +1,85 @@
+{
+  "first_disease": {
+    "name": "Yellow Leaf Curl",
+    "symptoms": "Quando infecta plantas no estágio de mudas, o TYLCV causa uma atrofiamento intenso nas folhas e brotos jovens, resultando em um desenvolvimento um pouco arbustivo da planta. Em plantas mais antigas, a contaminação produz uma ramificação excessiva, folhas mais espessas e enrugadas e a clorose intervernal claramente visível na lâmina. Nos estágios mais avançados da doenças elas adquirem uma textura coríacea (como couro) e suas margens se enrolam para baixo e para dentro. Se a contaminação ocorrer antes do estágio de floração, o\nnúmero de frutos ficar consideravelmente reduzido, apesar de não haver sintomas aparentes\nna sua superfície.",
+    "cause": "O TYLCV não é disseminado por sementes e não é transmitido de forma mecânica. Ele é disseminado pelas moscas-brancas da espécie Bemisia Tabaci. Essas moscas brancas se alimentam na superfície inferior da folha várias plantas e são atraídas por plantas jovens e frágeis. O ciclo total de contaminação pode ocorrer em aproximadamente 24 horas e é favorecido por condições secas com temperaturas elevadas.",
+    "organic_control": "Desculpe, nós não conhecemos nenhum tratamento alternativo para TYLCV.",
+    "chemical_control": "Sempre considere a abordagem integrada com medidas preventivas e tratamentos biológicos, se disponível. Inseticidas da família piretoides usados como doses no solo pulverizados durante o estágio de muda pode reduzir as populações de moscas-brancas. No entanto, o seu uso extensivo e indiscriminado pode promover o desenvolvimento da resistência nas populações de mosca-branca.",
+    "preventive_measures":  {
+      "first":"Utilize variedades resistentes e intolerantes.",
+      "second": "Faça a rotação com culturas não suscetíveis à mosca-branca.",
+      "third": "Use redes para cobrir a sementeira",
+      "fourth": "Plante antecipadamente para evitar picos populacionais da mosca-branca.",
+      "fifth": "Utilize armadilhas adevisas amarelas.",
+      "sixth": "Evite cultivas plantas hospedeiras alternativas pr ́oximas ao tomate.",
+      "seventh": "Are profundamente todos os res ́ıduos vegetais ap ́os a colheita ou os queime."
+      }
+    },
+    "second_disease": {
+      "name": "Septoria Leaf Spot",
+      "symptoms": "Os sintomas se espalham de forma ascendente das folhas, isto é, das folhas mais velhas para as mais jovens. Pequenas Manchas circulares encharcadas de coloração cinza com margens marrom-escuras aparecem nas superfícies inferiores das folhas mais velhas. Nos estágios mais avançados da doença, as manchas aumentam e se unem, e em seus centros aparecem pontos pretos. O mesmo padrão pode ser observado em hastes e flores, mas raramente em frutos. Folhas gravemente infectadas adquirem coloração levemente amarelada, murcham e caem. A\ndesfolha leva à queimadura dos frutos pelo sol.",
+      "cause": "A mancha-de-septoria ocorre no mundo todo e é causada pelo fungo Septoria Lycopersici. O fungo só infecta plantas da família da batata e do tomate. A faixa de temperatura para o desenvolvimento do fungo varia entre 15 e 27 graus, sendo o crescimento ideal aos 25 oC. Os esporos podem ser disseminados pela água da irrigação, respingos de chuva, mãos e roupas de trabalhadores, insetos como besouros, e equipamentos de cultivo. Ele hiberna em ervas daninhas, e por curtos períodos em solos ou em resíduos do solo.",
+      "organic_control": "Fungicidas à base de cobre, como calda bordalesa, hidróxido de cobre, sulfato de cobre ou sulfato de oxicloreto de cobre podem ajudar no controle do patógeno. Aplique em intervalos de 7 a 10 dias ao longo da safra, principalmente durante a floração e surgimento dos frutos. Siga as restrições da colheita indicadas pelo pesticida.",
+      "chemical_control": "Sempre considere uma abordagem integrada de medidas preventivas junto com tratamentos biológicos, se disponível. Fugincidas contendo maneb, mancozeb e cloratonil controlam de forma eficaz a mancha-de-septoria. Aplique em intervalos de 7 a 10 dias ao longo, principalmente durante a floração e surgimento dos frutos. Siga as restrições de colheita indicadas pelo rótulo do pesticida.",
+      "preventive_measures":  {
+        "first":"Se disponíveis, plante variedades resistentes.",
+        "second": "Utilize sementes de plantas saud ́aveis ou de fontes certificadas.",
+        "third": "Mantenha as plantas longe do solo.",
+        "fourth": "Não utilize aspersores ou outra irrigação em área.",
+        "fifth": "Encontre e erradique ervas daninhas dentro e ao redor do campo.",
+        "sixth": "Mantenha seus equipamentos e ferramentas limpos."
+      }
+    },
+    "third_disease": {
+      "name": "Late Blight",
+      "symptoms": "Manchas de coloração verde-acastanhada aparecem nas margens e pontas das folhas. Mais tarde, grandes áreas das folhas ficam completamente marrons. Durante condições úmidas, as lesões na superfície das folhas podem ficar cobertas por um crescimento fúngico de coloração\ncinza a branca, o que torna mais fácil distinguir o tecido foliar saudável do tecido morto. À\nmedida que a doença progride a folhagem fica marrom, enrola-se e seca. Em alguns casos, os pontos marrons acentuadamente delimitados e a cobertura branca também aparecem nas\nhastes, ramos e regiões entre o caule e lâmina da folha. Nos frutos, aparecem manchas\nenrugadas de coloração, verde-acinzentada ou marrom-turva. Nesses pontos, a polpa do\nfruto fica endurecida.",
+      "cause": "O risco de contaminação é mais alto no meio do verão. O fungo entra na planta através de ferimentos e rasgos na casca. Os principais fatores ambientais que afetam o desenvolvimento da doenças ao a temperatura e a umidade. O fungo da requeima se desenvolve melhor em\ncondições de umidade relativamente elevada (ao redor de 90%) e no intervalo de temperatura\nentre 18 e 26 graus. Um clima quente e seco no verão pode interromper a disseminação da doença.",
+      "organic_control": "Até o momento, não existe nenhum controle biológico com eficácia comprovada contra a requeima. Para evitar a disseminação, remova e destrua imediatamente as plantas ao redor do local infectado e não faça a compostagem do material vegetal infectado.",
+      "chemical_control": "Sempre considere a abordagem integrada com medidas preventivas e tratamentos biológicos, se disponível. Para combater a requeima utilize pulverizações com fungicidas à base de mandipropamida, cloratalonil, fluazinam e mancozeb. Geralmente, os fungicidas só são ne\ncessários se a doença aparecer em uma época do ano em que chova bastante ou quando a\nirrigação por aspersão(borrifar) é praticada.",
+      "preventive_measures":  {
+        "first":"Compre sementes saudáveis de revendedos confiá́veis.",
+        "second": "Plante variedades mais resistentes.",
+        "third": "Tente manter as plantas secas através de uma boa drenagem e ventilação das suas culturas.",
+        "fourth": "Não deve-se cultivar tomates perto de batatas.",
+        "fifth": "Desinfete equipamentos e ferramentas.",
+        "sixth": "Evite irrigação ao final do dia e irrigue as plantas no nível do solo.",
+        "seventh": "Uma boa medida é a instalação de uma cobertura transparente contra a chuva, com a ajuda de um plástico e estacas de madeira.",
+        "octave": "Aplique um fortificante vegetal para o fortalecimento geral das plantas."
+      }
+    },
+    "fourth_disease": {
+      "name": "Early Blight",
+      "symptoms": "Os sintomas da pinta-preta ocorrem em folhas, caules e frutos mais antigos. Pintas cinzas a castanhas aparecem nas folhas e crescem gradualmente de maneira concêntrica em em torno de um centro claro - a formação característica de ”olho-de-boi”. Essas lesões são circundadas por circunferência amarela brilhante. Conforme a doença progride, as folhas inteiras podem se tornar anêmicas, descoloradas e cair, levando a desfolhas significativas. Quando as folhas morrem e caem, os frutos tornam-se mais vulneráveis à queimadura causada pelo sol. O mesmo tipo de manchas com centro claro aparece nos caules e frutos. O apodrecimento e às vezes a queda dos frutos ocorrem.",
+      "cause": "Os sintomas são causados por um fungo que hiberna em restos de culturas infectadas no solo ou em hospedeiros alternativos. Sementes ou mudas compradas também já podem estar contaminadas. As folhas inferiores frequentemente se contaminam quando entram em contato com o solo contaminado. Temperaturas quentes (24-29 graus) e alta umidade (90%) favorecem o desenvolvimento da doença. Um longo período úmido aumenta a produção de esporos. que podem se espalhar através do vento, respingos de chuva ou da irrigação. Tubérculos colhidos verdes ou em condições úmidas são parcialmente suscetíveis a contaminações. Ela muitas vezes ocorre apos um período de fortes chuvas e é particularmente destrutivas em regiões tropicais e subtropicais.",
+      "organic_control": "Pequenos agricultores podem usar calcário de algas, uma mistura de leite sem gordura e água(1:1) ou farinha de rocha para tratar as plantas infectadas. Uma solução de 3 colheres de chá de bicarbonato de sódio + emulsão de peixe em 4 litros de água também ajuda. Aplicações à base de bacilus subtilis ou fungicidas `a base de cobre registrados como orgânicos também funcionam.",
+      "chemical_control": "Sempre considere uma abordagem integrada com medidas preventivas e tratamentos biológicos, se disponível. Existem diversos fungicidas no mercado para controlar a ”pinta-preta”. Fungicidas à base de combinações de azoxistrobina, piraclostrobina, difeconazol, boscalida, cloratonil, fenamidona, mancozebe, mancozebe. Aplique em tempo hábil levando em conta as condições climáticas. Verifique cuidadosamente o intervalo pré-colheita no qual pode colher com segurança após aplicação desses produtos.",
+      "preventive_measures":  {
+        "first":"Procure variedade resistentes à doença",
+        "second": "Remova as folhas inferiores que est ̃ao perto do solo.",
+        "third": "Remova folhas exibindo sintomas e as destrua.",
+        "fourth": "Use estacas para manter as plantas na posição vertical.",
+        "fifth": "Evite trabalhar nos campos quando as plantas estiverem molhadas.",
+        "sixth": "Plante ou transplante em canteiros elevados para melhorar a drenagem.",
+        "seventh": "Regue as plantas pela manhã para que as mesmas sequem durante o dia.",
+        "octave": "Após a colheita, remova os resíduos vegetais e os queime (Não use para compostar!)."
+      }
+    },
+    "fifth_disease": {
+      "name": "Bacterial Spot (Mancha-Bacteriana)",
+      "symptoms": "Estas bactérias atacam a folhagem, caules e frutos do tomateiro. Os primeiros sintomas são pequenas lesões amarelo-esverdeadas nas folhas jovens, que geralmente parecem deformadas e torcidas. Na folhagem mais velha, as lesões são limitadas pelas nervuras adquirindo um aspecto angular ao longo do tempo. Elas são primeiro verde-escuras, gordurosas na aparência e muitas vezes rodeadas por uma ar ́eola amarela. Geralmente, elas surgem mais quantidade nas margens ou nas pontas das folhas. Se as condições forem favoráveis, elas aumentam rapidamente de tamanho de 0.25 a 0.5 cm de largura e ficam castanho-avermelhadas. Eventualmente as manchas se parecem com buracos de tiro porque o centro seca e se desintegra.",
+      "cause": "A mancha-bacteriana é causada por várias espécies de bactérias. Ela ocorre em todo mundo e é uma das doenças mais devastadoras em tomates cultivados em ambientes quentes e úmidos. O patógeno pode sobreviver dentro ou sobre sementes, restos culturais e ervas daninhas. Ela tem um período de sobrevivência muito limitado, de dias a semanas no solo. Quando as condições são favoráveis, se espalha através da chuva ou irrigação por aspersão (borrifar) em plantas saudáveis. Ela entre nos tecidos da planta através de poros e feridas. As temperaturas ideais variam de 25 a 30 graus. Assim que a cultura é contaminada, a doença fica muito difícil de ser controlada e pode levar a perdas totais da cultura.",
+      "organic_control": "A mancha bacteriana é muito difícil e cara para ser tratada. Se a doença ocorrer no início da temporada, considere destruir toda a cultura. Vírus Bacterianos (os chamados bacteriófagos) 10 que matam especificamente essas bactérias estão disponíveis. Mergulhar as sementes por um minuto em 1,3 % de hipoclorito de sódio ou em água quente (50 graus) por 25 minutos pode reduzir a incidência da doença.",
+      "chemical_control": "Sempre considere uma abordagem integrada de medidas preventivas junto com tratamentos biológicos, se disponível. Bactericidas contendo cobre podem ser usados como protetores e conferem um controle parcial da doença. Aplique no primeiro sinal da doença e depois em intervalos de 10 a 14 dias, quando condições quentes e úmidas prevalecem. Como desenvolvimento de resistência ao cobre é frequente, uma combinação de bactericida à base de cobre com mancozebe também é recomendada.",
+      "preventive_measures":  {
+        "first":"Procure variedade resistentes à doença.",
+        "second": "Plante sementes certificadas e livre de doenças.",
+        "third": "Are ou remova os restos culturais após a colheita.",
+        "fourth": "Planeje uma solarização do solo após a colheita.",
+        "fifth": "Limpe ferramentas e equipamentos.",
+        "sixth": "Cubra o solo com folhas para evitar a contaminação dele para as plantas.",
+        "seventh": "Inspecione e remova qualquer muda com manchas na folhas.",
+        "octave": "Evite irrigação por aspersão e evite trabalhar nos campos quando a folhagem estiver molhada.",
+        "ninth": "Remova ervas daninhas dentro e em torno do campo."
+      }
+    }
+}
