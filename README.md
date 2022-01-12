@@ -8,8 +8,7 @@
 
 ### Ferramentas 
 - Flask
-- React Native
-- Rede Neural
+- Deep Learning
 - AWS
 
 ### Rede Neural
