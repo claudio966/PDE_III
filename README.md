@@ -19,7 +19,3 @@ Em desenvolvimento
 ### API
 
 Em desenvolvimento
-
-### Interface do usuário
-
-Em desenvolvimento
