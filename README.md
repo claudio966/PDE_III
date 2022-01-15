@@ -8,8 +8,7 @@
 
 ### Ferramentas 
 - Flask
-- React Native
-- Rede Neural
+- Deep Learning
 - AWS
 
 ### Rede Neural
@@ -17,9 +16,5 @@
 Em desenvolvimento
 
 ### API
-
-Em desenvolvimento
-
-### Interface do usuário
 
 Em desenvolvimento
