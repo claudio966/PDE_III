@@ -51,7 +51,7 @@ def check_result(predictions, file_name):
     return response
 def make_prediction(file_name):
     # carrega a imagem salva
-    img = keras.preprocessing.image.load_img('test.jpeg', target_size=(256, 256))
+    img = keras.preprocessing.image.load_img(file_name, target_size=(256, 256))
     # converte a imagem para array
     x = keras.preprocessing.image.img_to_array(img)
     # acrescenta uma dimensão à array original.
