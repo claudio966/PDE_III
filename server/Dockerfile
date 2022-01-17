@@ -1,17 +1,16 @@
-FROM ubuntu:16.04
-
-RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev
-
-# We copy just the requirements.txt first to leverage Docker cache
-COPY ./requirements.txt /app/requirements.txt
+FROM continuumio/miniconda3:latest 
 
 WORKDIR /app
 
-RUN pip install -r requirements.txt
+COPY enviroment.yml enviroment.yml 
 
-COPY . /app
+RUN conda config --add channels conda-forge
 
-ENTRYPOINT [ "python" ]
+RUN conda env create --name="PDE_III" -f enviroment.yml
 
-CMD [ "app.py" ]
+SHELL ["conda", "run", "-n", "PDE_III", "/bin/bash", "-c"]
+
+COPY diseases.json /app/diseases.json
+COPY leaves.py /app/leaves.py
+
+ENTRYPOINT ["conda", "run", "-n", "PDE_III", "python3", "leaves.py"]
