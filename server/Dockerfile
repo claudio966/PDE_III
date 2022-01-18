@@ -1,16 +1,16 @@
-FROM continuumio/miniconda3
-ADD environment.yml /tmp/environment.yml
+FROM ubuntu:16.04
 
-RUN conda config --add channels conda-forge
-RUN conda config --set channel_priority strict
+RUN apt-get update -y && \
+    apt-get install -y python-pip python-dev
 
-RUN conda env create -f /tmp/environment.yml
+# We copy just the requirements.txt first to leverage Docker cache
+COPY ./requirements.txt /app/requirements.txt
 
-# Pull the environment name out of the environment.yml
-RUN echo "source activate $(head -1 /tmp/environment.yml | cut -d' ' -f2)" > ~/.bashrc
-ENV PATH /opt/conda/envs/$(head -1 /tmp/environment.yml | cut -d' ' -f2)/bin:$PATH
+WORKDIR /app
 
-COPY diseases.json ./diseases.json
-COPY leaves.py ./leaves.py
+RUN pip install -r requirements.txt
 
-CMD ["python", "leaves.py"]
+COPY diseases.json /app/diseases.json
+COPY leaves.py /app/leaves.py
+
+CMD ["python", "leaves.py" ]
