@@ -1,16 +1,19 @@
-FROM ubuntu:16.04
+# syntax=docker/dockerfile:1
 
-RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev
+FROM python:3.8-slim-buster 
 
+RUN apt-get update && apt-get install -y python3-opencv 
 # We copy just the requirements.txt first to leverage Docker cache
 COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
 
-RUN pip install -r requirements.txt
+COPY requirements.txt requirements.txt
 
-COPY diseases.json /app/diseases.json
-COPY leaves.py /app/leaves.py
+RUN pip3 install -r requirements.txt
 
-CMD ["python", "leaves.py" ]
+EXPOSE 5000
+
+COPY . .
+
+CMD ["python3", "app.py"]

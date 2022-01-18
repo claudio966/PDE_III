@@ -1,27 +1,25 @@
 version: '3'
 
 services:
-  tensorflow_serving:
-     container_name: tensorflow-container
-     image: docker.io/bitnami/tensorflow-serving:2
-     ports:
+  tensorflow-serving:
+     image: tensorflow/serving
+     ports: 
         - "8501:8501"
      volumes:
-             - ./leaves_classifier:/bitnami
+        - ./leaves_classifier:/models/leaves_classifier
+     environment:
+        - MODEL_NAME=leaves_classifier 
   flask_api:
      container_name: flask_api
      image: tomato-api
      ports:
         - "5000:5000"
      depends_on:
-        - tensorflow_serving
+        - tensorflow-serving
      build:
         context: .
         dockerfile: Dockerfile 
      volumes:
         - ./leaves.py
         - ./diseases.json 
-volumes:
-  image-serving_data:
-     driver: local
 
