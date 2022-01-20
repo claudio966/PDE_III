@@ -11,9 +11,9 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 
 RUN pip3 install -r requirements.txt
-
+RUN pip3 install pillow
 EXPOSE 5000
 
 COPY . .
 
-CMD ["python3", "app.py"]
+CMD ["flask", "run", "--host=0.0.0.0"]

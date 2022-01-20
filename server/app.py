@@ -8,7 +8,7 @@ import os
 import time
 import requests
 # tensorflow serving URL
-url = 'http://localhost:8501/v1/models/leaves_classifier:predict'
+url = 'http://tensorflow-serving:8501/v1/models/leaves_classifier:predict'
 
 app = Flask(__name__)
 

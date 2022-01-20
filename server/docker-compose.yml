@@ -20,6 +20,6 @@ services:
         context: .
         dockerfile: Dockerfile 
      volumes:
-        - ./app.py
-        - ./diseases.json 
+        - ./app.py:/app.py
+        - ./diseases.json:/diseases.json 
 
