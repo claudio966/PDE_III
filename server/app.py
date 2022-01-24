@@ -1,4 +1,5 @@
 import numpy as np
+from os import environ
 from tensorflow import keras
 from flask import Flask, request, jsonify
 import sys
@@ -8,7 +9,10 @@ import os
 import time
 import requests
 # tensorflow serving URL
-url = 'http://tensorflow-serving:8501/v1/models/leaves_classifier:predict'
+
+tf_port = environ.get("TF_PORT", 8501)
+
+url = 'http://tensorflow-serving:{port}/v1/models/leaves_classifier:predict'.format(port = tf_port)
 
 app = Flask(__name__)
 
@@ -98,4 +102,4 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST')
     return response
 if __name__=="__main__":
-    app.run(port=environ.get("PORT", 5000))
+    app.run(debug = True, host= '0.0.0.0', port=environ.get("PORT", 5000))
