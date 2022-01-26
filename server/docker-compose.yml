@@ -2,15 +2,11 @@ version: '3'
 
 services:
   tensorflow-serving:
-     image: tf_serving
+     image: tensorflow/serving
      ports: 
         - "8501:8501"
-     build:
-        context: .
-        dockerfile: tf.Dockerfile
      volumes:
         - ./leaves_classifier:/models/leaves_classifier
-        - ./tf_serving_entrypoint.sh:/tf_serving_entrypoint.sh
      environment:
         - MODEL_NAME=leaves_classifier 
   flask_api:
@@ -20,10 +16,6 @@ services:
         - "5000:5000"
      depends_on:
         - tensorflow-serving
-     build:
-        context: .
-        dockerfile: Dockerfile 
      volumes:
         - ./app.py:/app.py
         - ./diseases.json:/diseases.json 
-

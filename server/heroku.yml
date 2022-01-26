@@ -1,8 +1,0 @@
-
-build:
-  docker:
-    api: Dockerfile
-
-    tf-serving: tf.Dockerfile
-
-     

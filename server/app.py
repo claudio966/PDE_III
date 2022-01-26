@@ -1,5 +1,4 @@
 import numpy as np
-from os import environ
 from tensorflow import keras
 from flask import Flask, request, jsonify
 import sys
@@ -10,9 +9,7 @@ import time
 import requests
 # tensorflow serving URL
 
-tf_port = environ.get("TF_PORT", 8501)
-
-url = 'http://tensorflow-serving:{port}/v1/models/leaves_classifier:predict'.format(port = tf_port)
+url = 'http://tensorflow-serving:8501/v1/models/leaves_classifier:predict'
 
 app = Flask(__name__)
 
@@ -47,7 +44,7 @@ def check_result(predictions, file_name):
         elif disease == 5:
             predicted_disease = diseases_data['fifth_disease']
         else:
-            predicted_disease = 0
+            predicted_disease = 'inconclusive'
     # após a verificação, o arquivo salvo pode ser removido.
     os.remove(file_name)
     # formata a resposta para envio.
@@ -102,4 +99,4 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Methods', 'GET,POST')
     return response
 if __name__=="__main__":
-    app.run(debug = True, host= '0.0.0.0', port=environ.get("PORT", 5000))
+    app.run()
