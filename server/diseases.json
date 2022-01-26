@@ -1,5 +1,6 @@
 {
   "fifth_disease": {
+    "url": "https://tomato-images.s3.amazonaws.com/yellow_curl_app.JPG",
     "name": "Yellow Leaf Curl",
     "symptoms": "Quando infecta plantas no estágio de mudas, o TYLCV causa uma atrofiamento intenso nas folhas e brotos jovens, resultando em um desenvolvimento um pouco arbustivo da planta. Em plantas mais antigas, a contaminação produz uma ramificação excessiva, folhas mais espessas e enrugadas e a clorose intervernal claramente visível na lâmina. Nos estágios mais avançados da doenças elas adquirem uma textura coríacea (como couro) e suas margens se enrolam para baixo e para dentro. Se a contaminação ocorrer antes do estágio de floração, o\nnúmero de frutos ficar consideravelmente reduzido, apesar de não haver sintomas aparentes\nna sua superfície.",
     "cause": "O TYLCV não é disseminado por sementes e não é transmitido de forma mecânica. Ele é disseminado pelas moscas-brancas da espécie Bemisia Tabaci. Essas moscas brancas se alimentam na superfície inferior da folha várias plantas e são atraídas por plantas jovens e frágeis. O ciclo total de contaminação pode ocorrer em aproximadamente 24 horas e é favorecido por condições secas com temperaturas elevadas.",
@@ -11,11 +12,11 @@
       "third": "Use redes para cobrir a sementeira",
       "fourth": "Plante antecipadamente para evitar picos populacionais da mosca-branca.",
       "fifth": "Utilize armadilhas adevisas amarelas.",
-      "sixth": "Evite cultivas plantas hospedeiras alternativas pr ́oximas ao tomate.",
-      "seventh": "Are profundamente todos os res ́ıduos vegetais ap ́os a colheita ou os queime."
+      "sixth": "Evite cultivas plantas hospedeiras alternativas pr ́oximas ao tomate."
       }
     },
     "fourth_disease": {
+      "url": "https://tomato-images.s3.amazonaws.com/septoria_spot_app.JPG",
       "name": "Septoria Leaf Spot",
       "symptoms": "Os sintomas se espalham de forma ascendente das folhas, isto é, das folhas mais velhas para as mais jovens. Pequenas Manchas circulares encharcadas de coloração cinza com margens marrom-escuras aparecem nas superfícies inferiores das folhas mais velhas. Nos estágios mais avançados da doença, as manchas aumentam e se unem, e em seus centros aparecem pontos pretos. O mesmo padrão pode ser observado em hastes e flores, mas raramente em frutos. Folhas gravemente infectadas adquirem coloração levemente amarelada, murcham e caem. A desfolha leva à queimadura dos frutos pelo sol.",
       "cause": "A mancha-de-septoria ocorre no mundo todo e é causada pelo fungo Septoria Lycopersici. O fungo só infecta plantas da família da batata e do tomate. A faixa de temperatura para o desenvolvimento do fungo varia entre 15 e 27 graus, sendo o crescimento ideal aos 25 oC. Os esporos podem ser disseminados pela água da irrigação, respingos de chuva, mãos e roupas de trabalhadores, insetos como besouros, e equipamentos de cultivo. Ele hiberna em ervas daninhas, e por curtos períodos em solos ou em resíduos do solo.",
@@ -31,6 +32,7 @@
       }
     },
     "third_disease": {
+      "url": "https://tomato-images.s3.amazonaws.com/late_blight_app.JPG",
       "name": "Late Blight",
       "symptoms": "Manchas de coloração verde-acastanhada aparecem nas margens e pontas das folhas. Mais tarde, grandes áreas das folhas ficam completamente marrons. Durante condições úmidas, as lesões na superfície das folhas podem ficar cobertas por um crescimento fúngico de coloração cinza a branca, o que torna mais fácil distinguir o tecido foliar saudável do tecido morto. À medida que a doença progride a folhagem fica marrom, enrola-se e seca. Em alguns casos, os pontos marrons acentuadamente delimitados e a cobertura branca também aparecem nas\nhastes, ramos e regiões entre o caule e lâmina da folha. Nos frutos, aparecem manchas\nenrugadas de coloração, verde-acinzentada ou marrom-turva. Nesses pontos, a polpa do\nfruto fica endurecida.",
       "cause": "O risco de contaminação é mais alto no meio do verão. O fungo entra na planta através de ferimentos e rasgos na casca. Os principais fatores ambientais que afetam o desenvolvimento da doenças ao a temperatura e a umidade. O fungo da requeima se desenvolve melhor em condições de umidade relativamente elevada (ao redor de 90%) e no intervalo de temperatura entre 18 e 26 graus. Um clima quente e seco no verão pode interromper a disseminação da doença.",
@@ -42,12 +44,11 @@
         "third": "Tente manter as plantas secas através de uma boa drenagem e ventilação das suas culturas.",
         "fourth": "Não deve-se cultivar tomates perto de batatas.",
         "fifth": "Desinfete equipamentos e ferramentas.",
-        "sixth": "Evite irrigação ao final do dia e irrigue as plantas no nível do solo.",
-        "seventh": "Uma boa medida é a instalação de uma cobertura transparente contra a chuva, com a ajuda de um plástico e estacas de madeira.",
-        "octave": "Aplique um fortificante vegetal para o fortalecimento geral das plantas."
+        "sixth": "Evite irrigação ao final do dia e irrigue as plantas no nível do solo."
       }
     },
     "second_disease": {
+      "url": "https://tomato-images.s3.amazonaws.com/early_blight_app.JPG",
       "name": "Early Blight",
       "symptoms": "Os sintomas da pinta-preta ocorrem em folhas, caules e frutos mais antigos. Pintas cinzas a castanhas aparecem nas folhas e crescem gradualmente de maneira concêntrica em em torno de um centro claro - a formação característica de ”olho-de-boi”. Essas lesões são circundadas por circunferência amarela brilhante. Conforme a doença progride, as folhas inteiras podem se tornar anêmicas, descoloradas e cair, levando a desfolhas significativas. Quando as folhas morrem e caem, os frutos tornam-se mais vulneráveis à queimadura causada pelo sol. O mesmo tipo de manchas com centro claro aparece nos caules e frutos. O apodrecimento e às vezes a queda dos frutos ocorrem.",
       "cause": "Os sintomas são causados por um fungo que hiberna em restos de culturas infectadas no solo ou em hospedeiros alternativos. Sementes ou mudas compradas também já podem estar contaminadas. As folhas inferiores frequentemente se contaminam quando entram em contato com o solo contaminado. Temperaturas quentes (24-29 graus) e alta umidade (90%) favorecem o desenvolvimento da doença. Um longo período úmido aumenta a produção de esporos. que podem se espalhar através do vento, respingos de chuva ou da irrigação. Tubérculos colhidos verdes ou em condições úmidas são parcialmente suscetíveis a contaminações. Ela muitas vezes ocorre apos um período de fortes chuvas e é particularmente destrutivas em regiões tropicais e subtropicais.",
@@ -59,12 +60,11 @@
         "third": "Remova folhas exibindo sintomas e as destrua.",
         "fourth": "Use estacas para manter as plantas na posição vertical.",
         "fifth": "Evite trabalhar nos campos quando as plantas estiverem molhadas.",
-        "sixth": "Plante ou transplante em canteiros elevados para melhorar a drenagem.",
-        "seventh": "Regue as plantas pela manhã para que as mesmas sequem durante o dia.",
-        "octave": "Após a colheita, remova os resíduos vegetais e os queime (Não use para compostar!)."
+        "sixth": "Plante ou transplante em canteiros elevados para melhorar a drenagem."
       }
     },
     "first_disease": {
+      "url": "https://tomato-images.s3.amazonaws.com/bacterial_spot_app.JPG",
       "name": "Bacterial Spot (Mancha-Bacteriana)",
       "symptoms": "Estas bactérias atacam a folhagem, caules e frutos do tomateiro. Os primeiros sintomas são pequenas lesões amarelo-esverdeadas nas folhas jovens, que geralmente parecem deformadas e torcidas. Na folhagem mais velha, as lesões são limitadas pelas nervuras adquirindo um aspecto angular ao longo do tempo. Elas são primeiro verde-escuras, gordurosas na aparência e muitas vezes rodeadas por uma ar ́eola amarela. Geralmente, elas surgem mais quantidade nas margens ou nas pontas das folhas. Se as condições forem favoráveis, elas aumentam rapidamente de tamanho de 0.25 a 0.5 cm de largura e ficam castanho-avermelhadas. Eventualmente as manchas se parecem com buracos de tiro porque o centro seca e se desintegra.",
       "cause": "A mancha-bacteriana é causada por várias espécies de bactérias. Ela ocorre em todo mundo e é uma das doenças mais devastadoras em tomates cultivados em ambientes quentes e úmidos. O patógeno pode sobreviver dentro ou sobre sementes, restos culturais e ervas daninhas. Ela tem um período de sobrevivência muito limitado, de dias a semanas no solo. Quando as condições são favoráveis, se espalha através da chuva ou irrigação por aspersão (borrifar) em plantas saudáveis. Ela entre nos tecidos da planta através de poros e feridas. As temperaturas ideais variam de 25 a 30 graus. Assim que a cultura é contaminada, a doença fica muito difícil de ser controlada e pode levar a perdas totais da cultura.",
@@ -76,10 +76,7 @@
         "third": "Are ou remova os restos culturais após a colheita.",
         "fourth": "Planeje uma solarização do solo após a colheita.",
         "fifth": "Limpe ferramentas e equipamentos.",
-        "sixth": "Cubra o solo com folhas para evitar a contaminação dele para as plantas.",
-        "seventh": "Inspecione e remova qualquer muda com manchas na folhas.",
-        "octave": "Evite irrigação por aspersão e evite trabalhar nos campos quando a folhagem estiver molhada.",
-        "ninth": "Remova ervas daninhas dentro e em torno do campo."
+        "sixth": "Cubra o solo com folhas para evitar a contaminação dele para as plantas."
       }
     }
 }
