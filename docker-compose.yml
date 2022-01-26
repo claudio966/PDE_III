@@ -13,7 +13,7 @@ services:
      container_name: flask_api
      image: 26031959/tomato-api
      ports:
-        - "5000:5000"
+        - "80:5000"
      depends_on:
         - tensorflow-serving
      volumes:
