@@ -11,7 +11,7 @@ services:
         - MODEL_NAME=leaves_classifier 
   flask_api:
      container_name: flask_api
-     image: tomato-api
+     image: 26031959/tomato-api
      ports:
         - "5000:5000"
      depends_on:
